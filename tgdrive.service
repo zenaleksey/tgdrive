@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram Drive Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/tgdrive
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
