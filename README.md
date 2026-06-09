@@ -7,7 +7,8 @@ A file system navigator for Telegram. The bot provides access to the server's fi
 ## Features
 
 - **File system navigation** — directories and files displayed as inline buttons with pagination
-- **File delivery** — tap a file to have it sent to the chat (up to 50 MB)
+- **Download file** — tap a file to have it sent to the chat (up to 50 MB)
+- **Upload file** — send a file to the bot to upload to the current directory
 - **Shell commands** — any text message is executed as a command in the current directory
 - **Dot files** — 👁 button toggles visibility of hidden files
 - **Bot commands** — `/start`, `/pwd`, `/ls`, `/cd <path>`
