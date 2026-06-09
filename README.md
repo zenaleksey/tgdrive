@@ -2,6 +2,8 @@
 
 A file system navigator for Telegram. The bot provides access to the server's file system right from the messenger — browse directories, download files, and execute shell commands.
 
+![Screenshot](screen.png)
+
 ## Features
 
 - **File system navigation** — directories and files displayed as inline buttons with pagination
